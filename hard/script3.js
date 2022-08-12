@@ -117,7 +117,7 @@ function refreshPage(){
 
 // Funtion back to choose difficulty //
 function mainMenu(){
-    window.location.href='/index.html';
+    window.location.href='../index.html';
 }
 
 // show alert how to play //
