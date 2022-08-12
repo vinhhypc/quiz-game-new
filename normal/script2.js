@@ -107,7 +107,7 @@ function refreshPage(){
 
 // Funtion back to choose difficulty //
 function mainMenu(){
-    window.location.href='./index.html';
+    window.location.href='../index.html';
 }
 
 
