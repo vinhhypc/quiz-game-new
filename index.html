@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game - Choose level</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <h1>Quiz game</h1>
+    <h2>Choose difficult :</h2>
+    <div class="level">
+        <button onclick="Easy()">Easy</button>
+        <button onclick="Normal()">Normal</button>
+        <button onclick="Hard()">Hard</button>
+    </div>
+    <ul class="icons">
+        <li><a href="https://www.facebook.com"><span class="fab fa-facebook-f"></span></a></li>
+        <li><a href="https://github.com"><span class="fab fa-github"></span></a></li>
+     </ul>
+    <p>Design by Vinh Nghiem</p>
+</body>
+</html>
+<script>
+    function Easy(){
+        window.location.href='easy/index1.html';
+    }
+    function Normal(){
+        window.location.href='normal/index2.html';
+    }
+    function Hard(){
+        window.location.href='hard/index3.html';
+    }
+</script>
